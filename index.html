@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox та радіокнопки</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            float:left;
+            position: relative;
+            right: 5px;
+            top: 5px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- main container -->
+<div class="container">
+    <div class="radio-buttons">
+        <label>
+            <input type="radio" name="option" checked>
+            <span class="radio-label">Опція 1</span>
+        </label>
+        <label>
+            <input type="radio" name="option">
+            <span class="radio-label">Опція 2</span>
+        </label>
+    </div>
+    <div class="wrap">
+        <div class="flex-container">
+            <div class="item item-1 green">1</div>
+            <div class="item item-2 blue">2</div>
+            <div class="item item-3 blue">3</div>
+            <div class="item item-4 red">4</div>
+        </div>
+    </div>
+    <div class="image">
+        <h2 style="display: inline;">Float</h2>
+        <img src="https://i.ytimg.com/vi/YEmdHbQBCSQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==
+        &rs=AOn4CLAlFR1uYz9Nem2q3l632z-bqTHXqQ" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque sint quasi ipsa asperiores exercitationem
+            dolores velit consequatur quas tempore repellat, obcaecati dignissimos, pariatur perspiciatis reiciendis
+            odit adipisci deserunt praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+            laboriosam ullam fugiat quo necessitatibus corporis rerum voluptas. Minima incidunt tempore maiores soluta
+            quas, accusamus natus minus est ducimus omnis libero!</p>
+    </div>
+</div>
+</body>
+</html>
